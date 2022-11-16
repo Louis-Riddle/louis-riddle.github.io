@@ -1,0 +1,31 @@
+.container {
+  margin: 30px 30px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  color: #000;
+  border: 2px solid black;
+  background-color: transparent;
+  padding: 0.7em;
+  width: 150px;
+  border-radius: 30px;
+  font-weight: 900;
+  font-size: 0.7em;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button:hover {
+  color: #ffb742;
+  background-color: #000;
+  border: 3px solid #ffb742;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    margin: 40px auto;
+  }
+}

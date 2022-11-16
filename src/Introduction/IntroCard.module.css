@@ -1,0 +1,30 @@
+.container {
+  background-color: #292b2e;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  border-radius: 5px;
+  margin-top: 1.5em;
+  min-width: 200px;
+}
+
+.header {
+  font-size: xx-large;
+  font-weight: 900;
+  color: #ffb742;
+}
+
+.text {
+  font-weight: 900;
+}
+
+p {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .container {
+    min-width: 170px;
+    margin: 1.5em 1em;
+  }
+}

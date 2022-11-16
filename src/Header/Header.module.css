@@ -1,0 +1,19 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 250px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .headerContainer {
+    max-width: 1024px;
+    margin: auto;
+  }
+}

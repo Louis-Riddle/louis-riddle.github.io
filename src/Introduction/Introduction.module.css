@@ -1,0 +1,69 @@
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+.introduction {
+  text-align: center;
+  padding: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: white;
+}
+
+.name {
+  color: #ffb742;
+}
+
+.title {
+  font-size: 1.35em;
+}
+
+.avatar {
+  width: 50%;
+  box-sizing: border-box;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.6);
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+  margin: 1.5em 0;
+}
+
+@media (min-width: 768px) {
+  .cardContainer {
+    display: flex;
+  }
+
+  .avatar {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .introduction {
+    max-width: 1024px;
+    margin: auto;
+    padding: 0;
+  }
+
+  .avatar {
+    width: 200px;
+  }
+}
