@@ -27,18 +27,13 @@ const Footer = (props) => {
               </a>
             </li>
             <li>
-              <a href="#Skills" className={styles.link}>
+              <a href="#MySkills" className={styles.link}>
                 Skills
               </a>
             </li>
             <li>
-              <a href="#Portfolio" className={styles.link}>
+              <a href="#Works" className={styles.link}>
                 Portfolio
-              </a>
-            </li>
-            <li>
-              <a href="#Contact" className={styles.link}>
-                Contact
               </a>
             </li>
           </ul>
