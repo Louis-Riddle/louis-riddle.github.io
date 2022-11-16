@@ -12,7 +12,7 @@ const Introduction = (props) => {
       <h1>
         Hi, I am <span className={introStyles.name}>Louis Riddle</span>👋
         <br />
-        <span className={introStyles.title}>Front-End Developer</span>
+        <span className={introStyles.title}>Full-Stack Developer</span>
       </h1>
       <p>I Code Beautifully Simple Things, And I Love What I Do.</p>
       <Image

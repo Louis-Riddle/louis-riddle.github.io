@@ -8,7 +8,7 @@ const Footer = (props) => {
         <div className={styles.nameContainer}>
           <h2 className={styles.name}>Louis Riddle</h2>
           <p className={styles.occupation}>
-            Front-end
+            Full-Stack
             <br />
             Web Developer
           </p>
