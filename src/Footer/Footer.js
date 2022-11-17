@@ -17,12 +17,12 @@ const Footer = (props) => {
           <h5 className={styles.listHeader}>Useful Links</h5>
           <ul className={styles.usefulLinks}>
             <li>
-              <a href="#home" className={styles.link}>
+              <a href="#Home" className={styles.link}>
                 Home
               </a>
             </li>
             <li>
-              <a href="#About" className={styles.link}>
+              <a href="#AboutMe" className={styles.link}>
                 About
               </a>
             </li>
