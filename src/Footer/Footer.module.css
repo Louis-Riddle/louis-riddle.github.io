@@ -9,10 +9,6 @@
   background-color: #000;
 }
 
-.nameContainer {
-  width: 33%;
-}
-
 .name {
   color: #ffb742;
   margin: 0;
@@ -32,9 +28,12 @@
 .usefulLinks {
   list-style: none;
   text-decoration: none;
-  margin: 0;
   padding: 0;
   font-size: 0.8em;
+}
+
+.usefulLinks li {
+  margin: 0 0 10px;
 }
 
 .link {
@@ -66,6 +65,10 @@
   .usefulLinks {
     display: flex;
     font-size: 1em;
+  }
+
+  .usefulLinks li {
+    margin: 0;
   }
 
   .link {

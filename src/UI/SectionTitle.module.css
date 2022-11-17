@@ -10,11 +10,4 @@
   color: white;
   line-height: 1.2em;
   font-size: 1.75em;
-  margin-left: 30px;
-}
-
-@media (min-width: 1024px) {
-  .heading {
-    margin-left: 0;
-  }
 }

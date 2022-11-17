@@ -38,7 +38,7 @@ h1 {
 .avatar {
   width: 50%;
   box-sizing: border-box;
-  border-radius: 50%;
+  border-radius: 80px;
   overflow: hidden;
   box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.6);
   transform: translatey(0px);

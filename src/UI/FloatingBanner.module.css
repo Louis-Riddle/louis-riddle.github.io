@@ -6,7 +6,7 @@
   justify-content: space-between;
   border-radius: 5px;
   padding: 0 1em;
-  transform: translateY(90%);
+  transform: translateY(50%);
   z-index: 2;
 }
 
@@ -26,6 +26,7 @@
     width: 75%;
     margin: auto;
     padding: 1em 2em;
+    transform: translateY(90%);
   }
 
   .title {
